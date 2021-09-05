@@ -76,8 +76,6 @@ class Calculator {
             case '/':
                 computation = prev / current;
                 break
-            case '&#8730;':
-                computation = Math.sqrt(current);
             default:
                 break
         }
